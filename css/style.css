@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  .header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 25px;
+      /* display: inline-block;
+      position: relative; */
+  }
+  .header__nav ul li{
+    display: inline-block;
+    margin-right: 35px;
+    position: relative;
+  }
+  #slider{
+      background-image: url(../image/pic2.png);
+      padding: 40px 80px;
+  }
+  .picture__main{
+      position: relative;
+  }
+  .picture__secondary{
+      position:absolute;
+      top: 0;
+      left: 0;
+  }
+  .digitalServices{
+      background-image: url(../image/bg2.png);
+      padding: 40px 80px;
+  }
+  .businessWebsite{
+      background-image: url(../image/bg15.png);
+      padding: 40px 80px;
+  }
+  #counter{
+    padding: 40px 80px;
+    font-size: 25px;
+    background-image: url(../image/bg14.png);
+  }
+  .counter__item{
+      font-size: medium;
+  }
+  /* .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .portfolio__picture_1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .portfolio__picture_2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  } */
+  .grid-container-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .item00{
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .item0{
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+  .item1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end: 3;
+  }
+  .item2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end: 3;
+  }
+  .item3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .item4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+#plan{
+    background-image: url(../image/bg16.png);
+    padding: 40px 80px;
+}
+#testimonial{
+    background-image: url(../image/bg17.png);
+    padding: 40px 80px;
+}
+#blog{
+    background-image: url(../image/bg16.png);
+    padding: 40px 80px;
+}
+.logo__company{
+    background-color: grey;
+    padding: 40px 80px;
+}
+.email__address{
+    background-image: url(../image/pattern2.png);
+}
+.footer__main{
+    background-image: url(../image/pattern3.png);
+    background: no-repeat;
+}

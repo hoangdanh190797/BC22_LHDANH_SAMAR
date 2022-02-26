@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     <!-- Slick -->
+     <link rel="stylesheet" href="./libs/slick/slick.css" />
+     <link rel="stylesheet" href="./libs/slick/slick-theme.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- myCSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <img src="./image/logo-2.png" alt="" />
+        </div>
+        <div class="header__nav">
+          <div>
+            <ul class="nav nav-tabs">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Home</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Home 1</a>
+                  <a class="dropdown-item" href="#">Home 2</a>
+                  <a class="dropdown-item" href="#">Home 3</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Pages</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">About Us</a>
+                  <a class="dropdown-item" href="#">Faq</a>
+                  <a class="dropdown-item" href="#">Pricing Table</a>
+                  <a class="dropdown-item" href="#">Team</a>
+                  <a class="dropdown-item" href="#">Comming Soon</a>
+                  <a class="dropdown-item" href="#">Error 404</a>
+                  <a class="dropdown-item" href="#">Site Down</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Services</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Services</a>
+                  <a class="dropdown-item" href="#">Services Details</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Post Layout</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Post Standard</a>
+                  <a class="dropdown-item" href="#">Post Left Sidebar</a>
+                  <a class="dropdown-item" href="#">Post Header Image</a>
+                  <a class="dropdown-item" href="#">Post Slide Show</a>
+                  <a class="dropdown-item" href="#">Post Side Image</a>
+                  <a class="dropdown-item" href="#">Post Gallery</a>
+                  <a class="dropdown-item" href="#">Post Gallery Alt</a>
+                  <a class="dropdown-item" href="#">Post Left Sidebar</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Blog</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Blog Grid 2</a>
+                  <a class="dropdown-item" href="#">Large Left Sidebar</a>
+                  <a class="dropdown-item" href="#">Large Right Sidebar</a>
+                  <a class="dropdown-item" href="#">Blog Details</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                  >Contact Us</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Contact Us 1</a>
+                  <a class="dropdown-item" href="#">Contact Us 2</a>
+                  <a class="dropdown-item" href="#">Contact Us 3</a>
+                </div>
+              </li>
+              <div class="header__button">
+                <button>GET A QUATE</button>
+              </div>
+            </ul>
+          </div>
+      </div>
+    </header>
+    <!-- Slider -->
+    <section id="slider">
+        <div class="row">
+            <div class="col-sm-6 slider__custom__col6">
+                <div class="slider__content">
+                    <div>
+                        <span>We are The Best</span>
+                        <h1>Freelance Product Designer Running</h1>
+                        <p>We develop the relationships that underpin the next phase in your <br>
+                            organisation’s growth.</p>
+                            <div>
+                                <i class="fa fa-check"></i>
+                                <span>Master's degree in designing</span> 
+                            </div>
+                            <div>
+                                <i class="fa fa-check"></i>
+                                <span>Outstanding mobile design</span>
+                            </div>
+                            <div class="header__button">
+                                <button>GET A QUATE</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 slider__custom__col6">
+                <div class="slider__picture">
+                    <div>
+                        <div class="picture__main">
+                            <img src="./image/pic3_1.png" alt="" class="float-left">
+                            <div class="picture__secondary">
+                                <img src="./image/pic1.png" alt="" class="float-left">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+          </div>
+    </section>
+    <section id="digitalServices">
+        <div class="digitalServices">
+            <div class="digitalServices__title text-center">
+                <span>What We Do Best</span>
+                <h1>Our Digital Services</h1>
+            </div>
+            <div class="card-deck">
+                <div class="card" style="width:400px">
+
+                  <div class="card-body text-center">
+                    <img class="card-img-top" src="./image/pic1_3.jpg" alt="Card image">
+                    <p class="card-text">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+                  </div>
+                </div>
+                <div class="card" style="width:400px">
+                  <div class="card-body text-center">
+                    <img class="card-img-top" src="./image/pic2_2.jpg" alt="Card image">
+                    <p class="card-text">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+                  </div>
+                </div>
+                <div class="card" style="width:400px">
+                  <div class="card-body text-center">
+                    <img class="card-img-top" src="./image/pic3_2.jpg" alt="Card image">
+                    <p class="card-text">Vestibulum a efficitur ex. Ut iaculis dapibus iaculis. Praesent lacus magna, rhoncus quis magna quis.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="businessWebsite">
+        <div class="businessWebsite">
+            <div class="row">
+                <div class="col-sm-6 slider__custom__col6">
+                    <div class="slider__picture">
+                        <div>
+                            <div class="picture__main">
+                                <img src="./image/pic1.jpg" alt="" class="float-left img-thumbnail">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 slider__custom__col6">
+                    <div class="slider__content">
+                        <div>
+                            <span>About Us</span>
+                            <h1>Build Your <br> Business Website <br> Better</h1>
+                            <p>Proin laoreet leo vel enim gravida, at porttitor metus ultricies. Cras eu velit enim. <br>
+                                Vivamus blandit, dolor ut aliquet rutrum, ex elit mattis sapien, non molestie felis <br>
+                                neque et nulla. Sed euismod turpis id nibh suscipit semper. Pellentesque dapibus <br>
+                                risus arcu.</p>
+                                <div>
+                                    <i class="fa fa-check"></i>
+                                    <p>We support programs that create advancement opportunities for people.</p>
+                                </div>
+                                <div>
+                                    <i class="fa fa-check"></i>
+                                    <p>Get a view of events and trends. Be updated on our recent news.</p>
+                                </div>
+                                <div>
+                                    <i class="fa fa-check"></i>
+                                    <p>Finally, it all comes down to people. Creating a winning team.</p>
+                                </div>
+                                <div>
+                                    <i class="fa fa-check"></i>
+                                    <p>Get a view of events and trends. Be updated on our recent news.</p>
+                                </div>
+                                <div class="header__button">
+                                    <button>LEARN MORE</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="counter">
+        <div class="counter__wrapper">
+          <div class="counter__list">
+            <div class="row text-center">
+                <div class="col-sm-3"><div class="counter__item">
+                    <i class="fa fa-smile fa-3x"></i>
+                    <br>
+                  <span
+                    class="counter"
+                    data-counter-time="2000"
+                    data-counter-delay="10"
+                    style="font-size: 40px;"
+                    >18</span
+                  ><span style="font-size: 40px;" >MI</span>
+                  <p>Satisfied Clients</p>
+                </div></div>
+                <div class="col-sm-3"><div class="counter__item">
+                    <i class="fa fa-chart-line fa-3x"></i>
+                    <br>
+                  <span
+                    class="counter"
+                    data-counter-time="2000"
+                    data-counter-delay="10"
+                    style="font-size: 40px;"
+                    >20</span
+                  ><span style="font-size: 40px;">MI</span>
+                  <p>Project Completed</p>
+                </div></div>
+                <div class="col-sm-3"><div class="counter__item">
+                    <i class="fa fa-rocket fa-3x"></i>
+                    <br>
+                  <span
+                    class="counter"
+                    data-counter-time="2000"
+                    data-counter-delay="10"
+                    style="font-size: 40px;"
+                    >30</span
+                  ><span style="font-size: 40px;">MI</span>
+                  <p>Project Lunched</p>
+                </div></div>
+                <div class="col-sm-3"><div class="counter__item">
+                    <i class="fa fa-award fa-3x"></i>
+                    <br>
+                  <span
+                    class="counter"
+                    data-counter-time="2000"
+                    data-counter-delay="10"
+                    style="font-size: 40px;"
+                    >50</span
+                  ><span style="font-size: 40px;">MI</span>
+                  <p>Years Completed</p>
+                </div></div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section id="samarAgency">
+        <div class="samarAgency row">
+            <div class="col-sm-6">
+                <div class="samarAgency__title">
+                    <span>Our Features</span>
+                    <h1>Behind The Story <br>
+                        Of Samar Agency
+                    </h1>
+                </div>
+                <div class="samarAgency__item">
+                    <div class="samarAgency__item__1">
+                        <div class="row" style="padding-left: 60px; padding-top: 20px">
+                            <span class="col-sm-1 text-right" style="font-size: 40px;"><i class="fa fa-lightbulb"></i></span>
+                            <div class="col-sm-11">
+                                <h1>Idea & Analysis Gathering</h1>
+                                <p>Maecenas laoreet efficitur sagittis. Aliquam <br>
+                                    eleifend nisl leo, sit amet consequat augue.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="samarAgency__item__2">
+                        <div class="row" style="padding-left: 100px; padding-top: 20px;">
+                            <span class="col-sm-1 text-right" style="font-size: 40px;"><i class="fa fa-desktop"></i></span>
+                            <div class="col-sm-11">
+                                <h1>Design & Developing</h1>
+                                <p>Maecenas laoreet efficitur sagittis. Aliquam <br>
+                                    eleifend nisl leo, sit amet consequat augue.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="samarAgency__item__3">
+                        <div class="row" style="padding-left: 60px; padding-top: 20px   ">
+                            <span class="col-sm-1 text-right" style="font-size: 40px;"><i class="fa fa-lightbulb"></i></span>
+                            <div class="col-sm-11">
+                                <h1>Testing & Lunching</h1>
+                                <p>Maecenas laoreet efficitur sagittis. Aliquam <br>
+                                    eleifend nisl leo, sit amet consequat augue.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <img src="./image/pic3.png" alt="" class="img-thumbnail">
+            </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="portfolio">
+            <div class="portfolio__title text-center" style="padding: 30px;">
+                <span>Portfolio</span>
+                <h1>Our Latest Work</h1>
+            </div>
+            <!-- <div class="portfolio__content">
+                <div class="portfolio_picture_0 grid-container">
+                    <div class="portfolio__picture_1 grid-item">
+                        <img src="./image/pic1_2.jpg" alt="" style="width:710px; height: 400px;">
+                    </div>
+                    <div class="portfolio__picture_2 grid-item">
+                        <img src="./image/pic2_1.jpg" alt="" style="height: 400px; width: 400px;">
+                    </div>
+                </div>
+            </div> -->
+            <div class="grid-container-1">
+                <div class="item00">
+                    <img src="./image/pic1_2.jpg" alt="" style="width:710px; height: 400px;">
+                </div>
+                <div class="item0">
+                    <img src="./image/pic2_1.jpg" alt="" style="height: 400px; width: 400px;">
+                </div>
+                <div class="item1">
+                    <img src="./image/pic3_1.jpg" alt="" style="width: 350px; height: 250px;">
+                </div>
+                <div class="item2">
+                    <img src="./image/pic4.jpg" alt="" style="width: 350px; height: 250px">
+                </div>
+                <div class="item3">
+                    <img src="./image/pic6.jpg" alt="" style="width: 400px; height: 510px">
+                </div>  
+                <div class="item4">
+                    <img src="./image/pic5.jpg" alt="" style="width: 710px; height: 250px">
+                </div>
+                <!-- <div class="item5">5</div>
+                <div class="item6">6</div> -->
+            </div>
+        </div>
+      </section>
+      <section id="plan">
+        <div class="plan">
+            <div class="plan__title text-center">
+                <span>Choose Your Plan</span>
+                <h1>Choose Your Plan</h1>
+            </div>
+            <div class="plan__content container">
+                <ul class="nav nav-tabs " role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-toggle="tab" href="#monthly">MONTHLY</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="yearly">YEARLY</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="monthly" class="container tab-pane active"><br>
+                        <div class="card-deck">
+                            <div class="card">
+                              <div class="card-body text-center">
+                                <h1>
+                                    Basic Plan
+                                </h1>
+                                <img src="./image/pic4_1.jpg " alt="" style="width: 200px; height: 200px">
+                                <br>
+                                <span>$49</span><span>/Month</span>
+                                <ul class="text-left" style="padding-left: 35px; list-style-type: none;">
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Graphic Design</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Web Design</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>UI/UX</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>HTML/CSS</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>SEO Marketing</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Business Analysis</span>
+                                    </li>
+                                </ul>
+                                <div class="header__button">
+                                    <button>START NOW</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-body text-center">
+                                <h1>Standart Plan</h1>
+                                <img src="./image/pic5_1.jpg" alt="" style="width: 200px; height: 200px">
+                                <br>
+                                <span>$49</span><span>/Month</span>
+                                <ul class="text-left" style="padding-left: 35px; list-style-type: none;">
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Graphic Design</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Web Design</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>UI/UX</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>HTML/CSS</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>SEO Marketing</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Business Analysis</span>
+                                    </li>
+                                </ul>
+                                <div class="header__button">
+                                    <button>START NOW</button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-body text-center">
+                                <h1>Premium Plan</h1>
+                                <img src="./image/pic6_1.jpg" alt="" style="width: 200px; height: 200px">
+                                <br>
+                                <span>$49</span><span>/Month</span>
+                                <ul class="text-left" style="padding-left: 35px; list-style-type: none;">
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Graphic Design</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Web Design</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>UI/UX</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>HTML/CSS</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>SEO Marketing</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa fa-check"></i></span>
+                                        <span>Business Analysis</span>
+                                    </li>
+                                </ul>
+                                <div class="header__button">
+                                    <button>START NOW</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div id="yearly" class="container tab-pane fade"><br>
+                      <h3>Menu 1</h3>
+                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section id="testimonial">
+        <div class="testimonial">
+            <div class="text-center">
+                <h1>What Our Clients Say’s</h1>
+            </div>
+            <div class="testimonial__slider">
+                <div id="demo" class="carousel slide" data-ride="carousel" >
+                    <!-- Indicators -->
+                    <div style="height: 40px; width: 100px;">
+                        <ul class="carousel-indicators" >
+                            <li data-target="#demo" data-slide-to="0" class="active">
+                            </li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                          </ul>
+                    </div>
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active text-center">
+                        <div class="testimonial__item text-center">
+                            <img src="./image/pic3_3.jpg" alt="" style="height: 250px; width: 250px;" >
+                            <br>
+                            <span>Cak Dikin</span>
+                            <br>
+                            <span>CEO & Founder </span>
+                            <br>
+                            <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non <br> vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam <br> sed facilisis erat.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="testimonial__item text-center">
+                            <img src="./image/pic2_3.jpg" alt="" style="height: 250px; width: 250px;" >
+                            <br>
+                            <span>Cak Dikin</span>
+                            <br>
+                            <span>CEO & Founder </span>
+                            <br>
+                            <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non <br> vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam <br> sed facilisis erat.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="testimonial__item text-center">
+                            <img src="./image/pic1_4.jpg" alt="" style="height: 250px; width: 250px;" >
+                            <br>
+                            <span>Cak Dikin</span>
+                            <br>
+                            <span>CEO & Founder </span>
+                            <br>
+                            <p>Duis feugiat est tincidunt ligula maximus convallis. Aenean ultricies, mi non <br> vestibulum auctor, erat tortor porttitor ipsum, nec dictum tortor sem eget nunc. Etiam <br> sed facilisis erat.</p>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+      </section>
+      <section id="blog">
+          <div class="blog">
+            <div class="text-center">
+                <span>Our Blog</span>
+                <h1>Latest News & Blog</h1>
+            </div>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <div class="slider__content_a" style="padding: 0px 100px;">
+                  <div>
+                    <div style="padding: 0px 40px;">
+                        <img class="card-img-top" src="./image/pic3.jpg" alt="Card image" width="250" height="250">
+                        <h1>Maecenas maximus augue eget libero dictum.</h1>
+                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                      </div>
+                  </div>
+                  <div>
+                    <div style="padding: 0px 40px;">
+                        <img class="card-img-top" src="./image/pic1_1.jpg" alt="Card image" width="250" height="250">
+                        <h1>Maecenas maximus augue eget libero dictum.</h1>
+                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                      </div>
+                  </div>
+                  <div>
+                    <div style="padding: 0px 40px;">
+                        <img class="card-img-top" src="./image/pic2.jpg" alt="Card image" width="250" height="250">
+                        <h1>Maecenas maximus augue eget libero dictum.</h1>
+                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                      </div>
+                  </div>
+                  <div>
+                    <div style="padding: 0px 40px;">
+                        <img class="card-img-top" src="./image/pic3.jpg" alt="Card image" width="250" height="250">
+                        <h1>Maecenas maximus augue eget libero dictum.</h1>
+                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                      </div>
+                  </div>
+                  <div>
+                    <div style="padding: 0px 40px;">
+                        <img class="card-img-top" src="./image/pic3.jpg" alt="Card image" width="250" height="250">
+                        <h1>Maecenas maximus augue eget libero dictum.</h1>
+                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                      </div>
+                  </div>
+                  <div>
+                    <div style="padding: 0px 40px;">
+                        <img class="card-img-top" src="./image/pic3.jpg" alt="Card image" width="250" height="250">
+                        <h1>Maecenas maximus augue eget libero dictum.</h1>
+                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                      </div>
+                  </div>
+                  <div>
+                    <div style="width:400px">
+                        <img class="card-img-top" src="./image/pic3.jpg" alt="Card image" width="250" height="250">
+                        <h1>Maecenas maximus augue eget libero dictum.</h1>
+                        <p>Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum ac aliquam. Phasellus justo quam.</p>
+                      </div>
+                  </div>
+            </div>
+          </div>
+      </section>
+      <section id="logo__company">
+          <div class="logo__company">
+            <div class="slider__logo" style="height: 80px;">
+                <div class="logo__item">
+                    <img  src="./image/logo-light1.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-light2.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-light3.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-light4.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-light5.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-light6.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-pink1.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-pink2.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-pink3.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-pink4.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-pink5.png" alt="">
+                </div>
+                <div class="logo__item">
+                    <img src="./image/logo-pink6.png" alt="">
+                </div>
+            </div>
+          </div>
+      </section>
+      <div class="email__address" style="padding: 40px 80px;">
+            <span>Subscribe To Our Newsletter</span>
+        <div>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Your Email Address">
+                <div class="input-group-append">
+                  <button class="btn btn-success" type="submit">
+                    <i class="fa fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+          </div>
+      </div>
+    <footer>
+        <div class="footer__main">
+            <div class="row" style="padding: 30px;">
+                <div class="col-sm-3">
+                    <img src="./image/logo-white.png" alt="">
+                    <br>
+                    <span><i class="fa fa-phone"></i></span>
+                    <span>1800-123-4567 <br>
+                        +91 987-654-3210</span>
+                    <br>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <span>
+                        info@example.com <br>
+                        services@gmail.com</span>
+                    <br>
+                    <span><i class="fa fa-map-marker-alt"></i></span>
+                    <span>Demo Address #8901 Marmora <br>
+                        Road Chi Minh City, Vietnam</span>
+                </div>
+                <div class="col-sm-3">
+                    <h1>Our links</h1>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <span><i class="fa fa-angle-right"></i></span>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><i class="fa fa-angle-right"></i></span>
+                                <span>About Us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><i class="fa fa-angle-right"></i></span>
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><i class="fa fa-angle-right"></i></span>
+                                <span>Team</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span><i class="fa fa-angle-right"></i></span>
+                                <span>Blog</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h1>Our Services</h1>
+                    <ul>
+                        <li><a href="">
+                            <span><i class="fa fa-angle-right"></i></span>
+                            <span>Strategy & Research</span>
+                        </a></li>
+                        <li><a href="">
+                            <span><i class="fa fa-angle-right"></i></span>
+                            <span>Web Development</span>
+                        </a></li>
+                        <li><a href="">
+                            <span><i class="fa fa-angle-right"></i></span>
+                            <span>Web Solution</span>
+                        </a></li>
+                        <li><a href="">
+                            <span><i class="fa fa-angle-right"></i></span>
+                            <span>Digital Marketing</span>
+                        </a></li>
+                        <li><a href="">
+                            <span><i class="fa fa-angle-right"></i></span>
+                            <span>App Design</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h1>Other links</h1>
+                    <li><a href="">
+                        <span><i class="fa fa-angle-right"></i></span>
+                        <span>FAQ</span>
+                    </a></li>
+                    <li><a href="">
+                        <span><i class="fa fa-angle-right"></i></span>
+                        <span>Portfolio</span>
+                    </a></li>
+                    <li><a href="">
+                        <span><i class="fa fa-angle-right"></i></span>
+                        <span>Privacy Policy</span>
+                    </a></li>
+                    <li><a href="">
+                        <span><i class="fa fa-angle-right"></i></span>
+                        <span>Terms & Conditions</span>
+                    </a></li>
+                    <li><a href="">
+                        <span><i class="fa fa-angle-right"></i></span>
+                        <span>Support</span>
+                    </a></li>
+                </div>
+              </div>
+        </div>
+        <div style="padding: 25px;">
+            <hr>
+            <p>Copyright © 2021 DexignZone. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slick -->
+     <script src="./libs/slick/slick.min.js"></script>
+    <!-- Count-up -->
+    <script src="./libs/countup/jquery.countup.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Popper.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Javascript -->
+    <script>
+        $(".counter").countUp({
+          time: 2000,
+          delay: 10,
+        });
+      </script>
+      <script>
+        $(document).ready(function () {
+          $(".slider__content_a").slick({
+            // setting-name: setting-value
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  infinite: true,
+                  dots: true,
+                },
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                },
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+            ],
+          });
+        });
+      </script>
+      <script>
+        $(document).ready(function () {
+          $(".slider__logo").slick({
+            // setting-name: setting-value
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 6,
+            slidesToScroll: 6,
+            responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 3,
+                  infinite: true,
+                  dots: true,
+                },
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                },
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                },
+              },
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+            ],
+          });
+        });
+      </script>
+  </body>
+</html>
